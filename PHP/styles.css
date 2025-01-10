@@ -1,0 +1,13 @@
+body{
+    color:#a1554d;
+}
+h1{
+    text-align: center;
+}
+pre{
+    border:5px lightcoral;
+    border-left-style: solid;
+    border-right-style: solid;
+    background-color: lightyellow;
+    border-radius: 10%;
+}
