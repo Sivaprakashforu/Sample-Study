@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="description" content="JavaScript Objects">
+        <title>Javascript Objects Page</title>
+ 
+        <style>
+
+            table{ border-spacing: 15px 30px;}
+        
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <h1>JavaScript Objects</h1>
+        
+        <hr>
+        
+        <p>A javaScript object is an entity having state and behavior (properties and method). For example: car, pen, bike, chair, glass, keyboard, monitor etc. A JavaScript object is a variable that can store multiple values in key-value pairs.</p>
+        
+        <p>An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method. Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life.</p>
+        
+        <h3>Example:</h3>
+        
+    
+        <table style="border: 1px solid black; width:40%">
+            
+            <tr>
+                
+                <td><pre>
+                    // Create an Object:
+                    const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+                    // Display Data from the Object:
+                    document.getElementById("demo").innerHTML =
+                    person.firstName + " is " + person.age + " years old.";
+                    </pre>
+                </td>
+                
+            </tr> 
+            
+        </table>
+        
+        <p id="demo"></p>
+
+        <script>
+        // Create an Object:
+        const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+        // Display Data from the Object:
+        document.getElementById("demo").innerHTML =
+        person.firstName + " is " + person.age + " years old.";
+        </script>
+        
+    
+    
+    </body>
+
+</html>

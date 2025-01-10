@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="description" content="CSS Border">
+        <title>Border Page</title>
+ 
+        <style>
+
+            table{ border-spacing: 15px 30px;}
+            p.dotted {border-style: dotted;}
+            p.dashed {border-style: dashed;}
+            p.solid {border-style: solid;}
+            p.double {border-style: double;}
+            p.groove {border-style: groove;}
+            p.ridge {border-style: ridge;}
+            p.inset {border-style: inset;}
+            p.outset {border-style: outset;}
+            p.none {border-style: none;}
+            p.hidden {border-style: hidden;}
+            p.mix {border-style: dotted dashed solid double;}
+        
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <h1>Border</h1>
+        
+        <hr>
+        
+        <p>The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+        
+        <p>The border-style property specifies what kind of border to display.<br><br>
+            
+            The following values are allowed:</p>
+        <ul>
+            <li>dotted - Defines a dotted border</li>
+            <li>dashed - Defines a dashed border</li>
+            <li>solid - Defines a solid border</li>
+            <li>double - Defines a double border</li>
+            <li>groove - Defines a 3D grooved border. The effect depends on the border-color value</li>
+            <li>ridge - Defines a 3D ridged border. The effect depends on the border-color value</li>
+            <li>inset - Defines a 3D inset border. The effect depends on the border-color value</li>
+            <li>outset - Defines a 3D outset border. The effect depends on the border-color value</li>
+            <li>none - Defines no border</li>
+            <li>hidden - Defines a hidden border</li>
+            <li>The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).</li>
+        
+        </ul>
+        
+        <h3>Example:</h3>
+        
+        <p>Demonstration of the different border styles:</p>
+        
+    
+        <table style="border: 1px solid black; width:40%">
+            
+            <tr>
+                
+                <td>p.dotted {border-style: dotted;}<br>
+                    p.dashed {border-style: dashed;}<br>
+                    p.solid {border-style: solid;}<br>
+                    p.double {border-style: double;}<br>
+                    p.groove {border-style: groove;}<br>
+                    p.ridge {border-style: ridge;}<br>
+                    p.inset {border-style: inset;}<br>
+                    p.outset {border-style: outset;}<br>
+                    p.none {border-style: none;}<br>
+                    p.hidden {border-style: hidden;}<br>
+                    p.mix {border-style: dotted dashed solid double;}</td>
+                
+            </tr> 
+            
+        </table>
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <p class="solid">A solid border.</p>
+        <p class="double">A double border.</p>
+        <p class="groove">A groove border.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">An inset border.</p>
+        <p class="outset">An outset border.</p>
+        <p class="none">No border.</p>
+        <p class="hidden">A hidden border.</p>
+        <p class="mix">A mixed border.</p>
+        
+    
+    
+    </body>
+
+</html>
